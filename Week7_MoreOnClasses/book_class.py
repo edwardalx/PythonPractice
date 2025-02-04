@@ -18,5 +18,5 @@ class Book():
 
 my_book1 = Book("1984", "George Orwell", 1949)
 my_book2 = Book("1984", "George Orwell", 1949)
-print(my_book1 is my_book2)
+print(my_book1 == my_book2)
 print(my_book1.year + my_book2.year)
