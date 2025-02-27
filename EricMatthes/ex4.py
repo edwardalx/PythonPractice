@@ -26,7 +26,9 @@ last_three = myList1[5:]
 print(f"\n The last three items are: " )
 for item in last_three: print(item)
 myList2.sort()
-print(myList2)
+print(f"My alphabetical order is {myList2}")
+myList2.reverse()
+print(f"My reverse alphabetical order is {myList2}")
 
 friend_list = myList1[:]
 myList1.append("original")
@@ -40,5 +42,5 @@ print("\n My friend’s favorite pizzas are:")
 friend_list.pop(-2)
 print(friend_list)
 for item in friend_list:
-    
-    print(item.upper())
+    print(f"You are welcome {item}, Have a nice day!!!!!")
+    print(item.upper(), "\n")
