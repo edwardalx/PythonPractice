@@ -63,19 +63,19 @@ class Library:
 # library.add_book(Book("Brave New World", "Aldous Huxley"))
 # library.add_book(Book("1984", "George Orwell"))
 
-library = Library()
-book1 = Book("1984", "George Orwell")
-book2 = Book("To Kill a Mockingbird", "Harper Lee")
+# library = Library()
+# book1 = Book("1984", "George Orwell")
+# book2 = Book("To Kill a Mockingbird", "Harper Lee")
 
-library.add_book(book1)
-library.add_book(book2)
+# library.add_book(book1)
+# library.add_book(book2)
 
-library.list_available_books()  # Should list both books
+# library.list_available_books()  # Should list both books
 
-library.check_out_book("1984")  # Should check out "1984"
-library.check_out_book("1984")  # Should say "1984 is not available"
+# library.check_out_book("1984")  # Should check out "1984"
+# library.check_out_book("1984")  # Should say "1984 is not available"
 
-library.return_book("1984")  # Should return "1984"
-library.return_book("1984")  # Should say "1984 was not checked out"
+# library.return_book("1984")  # Should return "1984"
+# library.return_book("1984")  # Should say "1984 was not checked out"
 
-library.list_available_books()  # Should list both books again
+# library.list_available_books()  # Should list both books again
